@@ -1,2 +1,41 @@
-@import "bootstrap-sprockets";
 @import "bootstrap";
+
+// header
+header {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+
+  .header-list {
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    & li {
+      & a {
+        color: #fff;
+      }
+      padding-left: 20px;
+      list-style: none;
+    }
+  }
+}
+
+
+// main
+main {
+  text-align: center;
+  margin: 160px 0;
+  
+  h1 {
+    font-size: 50px;
+  }
+}
+
+
+// footer
+footer {
+  text-align: center;
+  color: #aaa;
+}
