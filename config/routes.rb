@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'users/new'
-  root 'simplepages#home'
+  root 'simple_pages#home'
   get 'simple_pages/home'
   get 'simple_pages/help'
   get 'simple_pages/about'
